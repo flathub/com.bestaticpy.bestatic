@@ -15,10 +15,14 @@ modules:
     build-commands: 
     - install -Dm644 ${FLATPAK_ID}.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png
     - install -Dm644 ${FLATPAK_ID}.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo/
+    - install -Dm644 ${FLATPAK_ID}.desktop -t ${FLATPAK_DEST}/share/applications/
     sources:
       - type: file
-        url: https://raw.githubusercontent.com/tatsatb/bestatic/2cd5c83934df708cf88d3642efa2c47dc9f3c2cf/flatpak/com.bestaticpy.bestatic.metainfo.xml
-        sha256: b411c6e793a984c0c50749ce2d097039751e685ec90691ac390bca810b0ca0f5
+        url: https://raw.githubusercontent.com/tatsatb/bestatic/1cc86b17fba66e0d338a81ea4996b0f6514b608e/flatpak/com.bestaticpy.bestatic.desktop
+        sha256: 9b8f8d39dbe7408bac9a925fc306f80b542e5b28cbecaebbd7af9ac9f5b304ae
+      - type: file
+        url: https://raw.githubusercontent.com/tatsatb/bestatic/98f8842e3710ac880a8daf7bd60a7b1d43e85baf/flatpak/com.bestaticpy.bestatic.metainfo.xml
+        sha256: 47bcfd04b9f037f842ce5a63746a672dbddf8ad8efae25847d7595ebe7bb3b9b
       - type: file
         url: https://raw.githubusercontent.com/tatsatb/bestatic/3ca8e2d249bdfde3fe8b1f7cc6f3eb6e4671626e/flatpak/com.bestaticpy.bestatic.png
         sha256: 139a8aafbdf5aeff64cca13f6a41e3a4339378c035c82303b3d73f825744bbf3
