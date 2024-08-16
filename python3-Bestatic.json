@@ -4,7 +4,7 @@
     "build-commands": [
         "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Pygments==2.17.2\" --no-build-isolation",
         "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Markdown==3.5.2\" --no-build-isolation",
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Bestatic==0.0.25\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Bestatic==0.0.26\" --no-build-isolation"
     ],
     "sources": [
         {
