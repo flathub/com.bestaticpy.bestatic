@@ -4,7 +4,7 @@
     "build-commands": [
         "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Pygments==2.17.2\" --no-build-isolation",
         "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Markdown==3.5.2\" --no-build-isolation",
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Bestatic==0.0.26\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Bestatic==0.0.28\" --no-build-isolation"
     ],
     "sources": [
         {
@@ -24,8 +24,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/17/1a/232d73a034e5af35e065ac1435c16aa6f89128ffd5764311334bfddfe9fc/Bestatic-0.0.26-py3-none-any.whl",
-            "sha256": "1462eaad717e7451a86d954df0372af045ca4cb5639c7d5e134b8d8c6bc40ac9"
+            "url": "https://files.pythonhosted.org/packages/74/a5/bdbb4890eb2d244e5d21b224f3bf37332b0b1cd9e1d4bb7d5d1dbfde6281/Bestatic-0.0.28-py3-none-any.whl",
+            "sha256": "16d5cdd4d36334ce5dcf80ccd00970178da86209597354386bffd41788a7da63"
         },
         {
             "type": "file",
