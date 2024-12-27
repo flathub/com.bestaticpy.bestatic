@@ -21,8 +21,8 @@ modules:
         url: https://raw.githubusercontent.com/tatsatb/bestatic/1cc86b17fba66e0d338a81ea4996b0f6514b608e/flatpak/com.bestaticpy.bestatic.desktop
         sha256: 9b8f8d39dbe7408bac9a925fc306f80b542e5b28cbecaebbd7af9ac9f5b304ae
       - type: file
-        url: https://raw.githubusercontent.com/tatsatb/bestatic/d86b66f561a74c06210856df6aa5961d0631f531/flatpak/com.bestaticpy.bestatic.metainfo.xml
-        sha256: 51d9f9d45061048c00562301e73746e6ae14fd44300cf3ecc9aef4ce39350db5
+        url: https://raw.githubusercontent.com/tatsatb/bestatic/f2ef8c1d78d7e5342eff185500ecfbad9c4e2cd3/flatpak/com.bestaticpy.bestatic.metainfo.xml
+        sha256: 44d2f193f73bae6dc352379e8336acb07c24ba69336986d2475c95fbbbfee309
       - type: file
         url: https://raw.githubusercontent.com/tatsatb/bestatic/3ca8e2d249bdfde3fe8b1f7cc6f3eb6e4671626e/flatpak/com.bestaticpy.bestatic.png
         sha256: 139a8aafbdf5aeff64cca13f6a41e3a4339378c035c82303b3d73f825744bbf3
