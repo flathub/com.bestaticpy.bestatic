@@ -4,7 +4,7 @@
     "build-commands": [
         "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Pygments==2.17.2\" --no-build-isolation",
         "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Markdown==3.5.2\" --no-build-isolation",
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Bestatic==0.0.28\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Bestatic==0.0.30\" --no-build-isolation"
     ],
     "sources": [
         {
@@ -24,8 +24,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/74/a5/bdbb4890eb2d244e5d21b224f3bf37332b0b1cd9e1d4bb7d5d1dbfde6281/Bestatic-0.0.28-py3-none-any.whl",
-            "sha256": "16d5cdd4d36334ce5dcf80ccd00970178da86209597354386bffd41788a7da63"
+            "url": "https://files.pythonhosted.org/packages/05/32/e8b21ab2282b0144d425e50d854937bad9cf2499d462f2b44f0fe38d816a/Bestatic-0.0.30-py3-none-any.whl",
+            "sha256": "94a8574667fdfac38b91607e9292fe4f6824194d0122a3fb2a8ccc3e5c3a3f49"
         },
         {
             "type": "file",
@@ -99,8 +99,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl",
-            "sha256": "bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d"
+            "url": "https://files.pythonhosted.org/packages/bd/0f/2ba5fbcd631e3e88689309dbe978c5769e883e4b84ebfe7da30b43275c5a/jinja2-3.1.5-py3-none-any.whl",
+            "sha256": "aba0f4dc9ed8013c424088f68a5c226f7d6097ed89b246d7749c2ec4175c6adb"
         },
         {
             "type": "file",
@@ -246,6 +246,16 @@
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/1b/f9/b01e4632aed9a6ecc2b3e501feffd3af5aa0eb4e3b0283fc9525bf503c38/watchdog-4.0.1.tar.gz",
             "sha256": "eebaacf674fa25511e8867028d281e602ee6500045b57f43b08778082f7f8b44"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/38/6f/f5fbc992a329ee4e0f288c1fe0e2ad9485ed064cac731ed2fe47dcc38cbf/chardet-5.2.0-py3-none-any.whl",
+            "sha256": "e1cf59446890a00105fe7b7912492ea04b6e6f06d4b742b2c788469e34c82970"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/d7/e2/c4d20b21a05fe0fee571649cebc05f7f72e80b1a743f932e7326125e6c9e/markdown_include-0.8.1-py3-none-any.whl",
+            "sha256": "32f0635b9cfef46997b307e2430022852529f7a5b87c0075c504283e7cc7db53"
         },
         {
             "type": "file",
