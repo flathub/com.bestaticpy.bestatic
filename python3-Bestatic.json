@@ -6,12 +6,14 @@
         "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Markdown==3.5.2\" --no-build-isolation",
         "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"MarkupSafe==2.1.5\" --no-build-isolation",
         "pip3 install --verbose --exists-action=i --ignore-installed --prefix=${FLATPAK_DEST} \"PyYAML==6.0.1\" --global-option=\"--with-libyaml\" --no-build-isolation",
+        "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"yamlns==0.11.0\" --no-build-isolation",
         "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Bestatic==0.0.30\" --no-build-isolation"
     ],
     "build-options": {
-        "build-args": [
-            "--share=network"
-        ]
+        "env": {
+            "CFLAGS": "-I/app/include",
+            "LDFLAGS": "-L/app/lib"
+        }
     },
     "modules": [
         {
