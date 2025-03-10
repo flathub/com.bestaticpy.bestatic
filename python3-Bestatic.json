@@ -5,7 +5,27 @@
         "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Pygments==2.17.2\" --no-build-isolation",
         "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Markdown==3.5.2\" --no-build-isolation",
         "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"MarkupSafe==2.1.5\" --no-build-isolation",
+        "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"PyYAML==6.0.1\" --global-option=\"--with-libyaml\" --no-build-isolation",
+        "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"yamlns==0.11.0\" --no-build-isolation",
         "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Bestatic==0.0.30\" --no-build-isolation"
+    ],
+    "build-options": {
+        "env": {
+            "CFLAGS": "-I/app/include",
+            "LDFLAGS": "-L/app/lib"
+        }
+    },
+    "modules": [
+        {
+            "name": "libyaml",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/yaml/libyaml/releases/download/0.2.5/yaml-0.2.5.tar.gz",
+                    "sha256": "c642ae9b75fee120b2d96c712538bd2cf283228d2337df2cf2988e3c02678ef4"
+                }
+            ]
+        }
     ],
     "sources": [
         {
