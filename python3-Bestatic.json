@@ -280,16 +280,6 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa5cdaedf301d7dfb23af5f25c398d5ead2525b063e17/pyyaml-6.0.2.tar.gz",
-            "sha256": "d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/db/7d/7f3d619e951c88ed75c6037b246ddcf2d322812ee8ea189be89511721d54/watchdog-6.0.0.tar.gz",
-            "sha256": "9ddf7c82fda3ae8e24decda1338ede66e1c99883db93711d8fb941eaa2d8c282"
-        },
-        {
-            "type": "file",
             "url": "https://files.pythonhosted.org/packages/e1/c2/cec459e3a0deda1570220f1481014d5fe480d129be10bc0571432a6a5e72/yamlns-0.11.0-py3-none-any.whl",
             "sha256": "abc4b013bf82670c5d6f0d70afb286037f48762b52942bc4d7e1c0274844ca50"
         }
